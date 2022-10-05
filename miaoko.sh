@@ -14,7 +14,7 @@ root_need(){
 install(){
 apt-get update
 echo -e "${GREEN}開始下載後端...${END}" 
-wget -N https://ghproxy.com/https://raw.githubusercontent.com/imkcp-blog/miaoko/main/frpc.tar.gz
+wget -N https://ghproxy.com/https://raw.githubusercontent.com/imkcp-blog/flies/main/frpc.tar.gz
 echo -e "${GREEN}開始解壓...${END}" 
 tar -zxvf frpc.tar.gz
 cd frp
