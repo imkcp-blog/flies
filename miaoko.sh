@@ -16,7 +16,7 @@ apt-get update
 echo -e "${GREEN}開始下載後端...${END}" 
 wget -N https://gcore.jsdelivr.net/gh/imkcp-blog/flies@main/frp.tar.gz
 echo -e "${GREEN}開始解壓...${END}" 
-tar -zxvf frpc.tar.gz
+tar -zxvf frp.tar.gz
 cd frp
 echo -e "${GREEN}啓動!!!!!!!${END}" 
 nohup ./frpc -c frpc.ini 2>&1
